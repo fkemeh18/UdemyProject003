@@ -1,3 +1,8 @@
 /Intermediate
 /Saved/Logs
 /Saved/ShaderDebugInfo
+Intermediate/CachedAssetRegistry_0.bin
+*.bin
+*.ini
+/Saved/Config
+*.log
