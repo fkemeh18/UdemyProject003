@@ -273,7 +273,15 @@
 				"C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003/Content/Sounds/S_SwordSwing.uasset",
 				"C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003/Content/Sounds/S_WaveTransition.uasset",
 				"C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003/Content/UI/T_Heart_Full.uasset",
-				"C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003/Content/UI/T_Heart_Empty.uasset"
+				"C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003/Content/UI/T_Heart_Empty.uasset",
+				"C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003/Content/Blueprints/Characters/BP_Enemy_Base.uasset",
+				"C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003/Content/Blueprints/Characters/BP_Char_Base.uasset",
+				"C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003/Content/Blueprints/Characters/BP_Hero.uasset",
+				"C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003/Content/Inputs/Actions/IA_Move.uasset",
+				"C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003/Content/Inputs/IMC_Dungeon.uasset",
+				"C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003/Content/Blueprints/Characters/Hero/BP_Hero.uasset",
+				"C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003/Content/Blueprints/Characters/Hero/AS_Hero.uasset",
+				"C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003/Content/Blueprints/Characters/Hero/AnimSequences/Idle.uasset"
 			]
 		}
 	]
