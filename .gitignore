@@ -11,3 +11,5 @@ Intermediate/CachedAssetRegistry_0.bin
 *.ini
 /Saved/Config
 /Saved/Logs
+/Saved/Logs
+/Saved/Autosaves
