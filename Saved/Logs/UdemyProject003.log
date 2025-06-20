@@ -4751,3 +4751,1726 @@ LogConfig: CVar [[D3D12.Bindless.SamplerDescriptorHeapSize:2048]] deferred - dum
 [2025.06.20-01.13.37:010][445]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
 [2025.06.20-01.14.00:401][515]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
 [2025.06.20-01.14.23:803][585]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.14.40:831][740]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-01.14.40:841][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-01.14.40:841][740]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.14.40:847][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005471s)
+[2025.06.20-01.14.40:847][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.005575s)
+[2025.06.20-01.14.40:881][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2025.06.20-01.14.40:882][740]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-01.14.40:883][740]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-01.14.40:885][740]LogPlayLevel: PIE: World Init took: (0.002359s)
+[2025.06.20-01.14.40:886][740]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.06.20-01.14.40:886][740]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-01.14.40:886][740]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-01.14.40:886][740]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-01.14.40:886][740]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-01.14.40:886][740]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-01.14.40:886][740]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-01.14.40:886][740]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-01.14.40:886][740]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-01.14.40:886][740]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-01.14.40:886][740]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-01.14.40:886][740]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-01.14.40:889][740]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-01.14.40:922][740]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-01.14.40:923][740]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-01.14.40:923][740]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-01.14.40:923][740]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-01.14.40:923][740]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.06.20-01.14.40:923][740]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.06.20-01.14.40:926][740]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.06.20-01.14.40:926][740]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.06.20-01.14.40:926][740]LogInit: FAudioDevice initialized with ID 15.
+[2025.06.20-01.14.40:926][740]LogAudio: Display: Audio Device (ID: 15) registered with world 'Level_Dungeon'.
+[2025.06.20-01.14.40:926][740]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.06.20-01.14.40:984][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.14.40:984][740]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-01.14.40:985][740]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-21.14.40
+[2025.06.20-01.14.41:262][740]LogWorld: Bringing up level for play took: 0.277742
+[2025.06.20-01.14.41:266][740]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.06.20-01.14.41:270][740]PIE: Server logged in
+[2025.06.20-01.14.41:272][740]PIE: Play in editor total start time 0.432 seconds.
+[2025.06.20-01.14.43:973][897]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.14.47:880][128]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.14.48:308][136]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_0] BP_Hero_C_0
+[2025.06.20-01.14.48:340][137]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_0] BP_Skeleton
+[2025.06.20-01.14.48:340][137]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_0] BP_Boar
+[2025.06.20-01.14.51:892][350]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.14.52:027][358]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_1] BP_Hero_C_0
+[2025.06.20-01.14.52:209][369]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_1] BP_Boar
+[2025.06.20-01.14.52:276][373]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_1] BP_Skeleton
+[2025.06.20-01.14.55:453][562]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.14.55:588][570]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_2] BP_Hero_C_0
+[2025.06.20-01.14.57:086][660]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.14.57:220][668]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_3] BP_Hero_C_0
+[2025.06.20-01.14.57:320][674]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_3] BP_Boar
+[2025.06.20-01.14.57:404][679]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_3] BP_Skeleton
+[2025.06.20-01.15.03:636][ 53]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.15.03:771][ 61]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_4] BP_Hero_C_0
+[2025.06.20-01.15.03:837][ 65]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_4] BP_Boar
+[2025.06.20-01.15.08:054][318]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.15.08:190][326]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_5] BP_Hero_C_0
+[2025.06.20-01.15.10:654][467]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.15.10:654][467]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=15
+[2025.06.20-01.15.16:460][814]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.15.16:596][822]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_6] BP_Hero_C_0
+[2025.06.20-01.15.16:644][825]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_6] BP_Boar
+[2025.06.20-01.15.18:727][950]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.15.18:863][958]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_7] BP_Hero_C_0
+[2025.06.20-01.15.19:096][972]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.15.20:662][ 66]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.15.20:795][ 74]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_8] BP_Hero_C_0
+[2025.06.20-01.15.21:112][ 93]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.15.26:146][395]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.15.26:280][403]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_9] BP_Hero_C_0
+[2025.06.20-01.15.26:412][411]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_9] BP_Skeleton
+[2025.06.20-01.15.26:695][428]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.15.27:903][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.15.27:903][499]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.15.27:904][499]LogSlate: Window 'UdemyProject003 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.06.20-01.15.27:912][499]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-01.15.27:912][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.15.27:916][499]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-01.15.27:930][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.15.27:965][499]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.20-01.15.27:965][499]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.06.20-01.15.27:965][499]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.06.20-01.15.27:968][499]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.06.20-01.15.27:978][499]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2025.06.20-01.15.28:004][500]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.06.20-01.15.36:240][989]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.16.00:393][425]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.16.31:349][591]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.17.02:047][165]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.17.22:233][290]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.17.29:015][633]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.06.20-01.17.29:015][633]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_9'.
+[2025.06.20-01.17.39:208][148]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: ================================================
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Total job queries 50, among them cache hits 9 (18.00%), DDC hits 22 (44.00%), Duplicates 0 (0.00%)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Tracking 41 distinct input hashes that result in 32 distinct outputs (78.05%)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: RAM used: 69.83 KiB of 819.20 MiB budget. Usage: 0.01%
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Shaders Compiled: 19
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Jobs assigned 19, completed 19 (100%)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Average time worker was idle: 3043.18 s
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.13 s
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Job execution time: average 5.07 s, max 10.03 s
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Job life time (pending + execution): average 5.12 s, max 10.03
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Shader code size: average 8.739 KiB, min 2.297 KiB, max 21.82 KiB
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 31.01 s
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Jobs were issued in 19 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Average processing rate: 0.61 jobs/sec
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Total thread time: 26.747 s
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Total thread preprocess time: 1.382 s
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Percentage time preprocessing: 5.17%
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Effective parallelization: 0.86 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 3.37 sec, max 3.37 sec, min 3.37 sec)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 1.53 sec, max 1.53 sec, min 1.53 sec)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 1.52 sec, max 1.52 sec, min 1.52 sec)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 1.49 sec, max 1.49 sec, min 1.49 sec)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display:            TShadowDepthVSVertexShadowDepth_OnePassPointLight (compiled    1 times, average 1.49 sec, max 1.49 sec, min 1.49 sec)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.52% of total time (compiled    5 times, average 1.20 sec, max 2.14 sec, min 0.79 sec)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.73% of total time (compiled    5 times, average 0.79 sec, max 0.89 sec, min 0.61 sec)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 12.61% of total time (compiled    1 times, average 3.37 sec, max 3.37 sec, min 3.37 sec)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display:                                                  FHitProxyPS - 5.71% of total time (compiled    1 times, average 1.53 sec, max 1.53 sec, min 1.53 sec)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 5.70% of total time (compiled    1 times, average 1.52 sec, max 1.52 sec, min 1.52 sec)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: === Material stats ===
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Materials Translated:    125
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Material Total Translate Time: 0.20 s
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Material Translation Only: 0.12 s (59%)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: Material Cache Hits: 18 (14%)
+[2025.06.20-01.17.46:024][479]LogShaderCompilers: Display: ================================================
+[2025.06.20-01.18.06:223][432]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.18.19:580][200]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.18.41:912][507]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.18.47:227][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2025.06.20-01.18.47:264][801]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.18.47:376][801]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base] ([2] browsable assets)...
+[2025.06.20-01.18.47:377][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base]
+[2025.06.20-01.18.47:384][801]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base
+[2025.06.20-01.18.47:386][801]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Projectile_Base0E8628224A33EA0ACA0DF7859FAC5701.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Items/Projectiles/BP_Projectile_Base.uasset'
+[2025.06.20-01.18.47:405][801]LogFileHelpers: InternalPromptForCheckoutAndSave took 142.027 ms (total: 7.88 sec)
+[2025.06.20-01.18.47:528][801]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.18.47:528][801]LogContentValidation: Enabled validators:
+[2025.06.20-01.18.47:528][801]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.18.47:528][801]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.18.47:528][801]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.18.47:528][801]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.18.47:528][801]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.18.47:528][801]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.18.47:529][801]AssetCheck: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base Validating asset
+[2025.06.20-01.18.56:531][313]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.19.24:775][ 62]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.19.27:483][208]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2025.06.20-01.19.27:527][208]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.19.27:637][208]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base] ([2] browsable assets)...
+[2025.06.20-01.19.27:637][208]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base]
+[2025.06.20-01.19.27:644][208]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base
+[2025.06.20-01.19.27:647][208]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Projectile_Base56E65EDA40513262696E33944090CE3A.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Items/Projectiles/BP_Projectile_Base.uasset'
+[2025.06.20-01.19.27:663][208]LogFileHelpers: InternalPromptForCheckoutAndSave took 136.186 ms (total: 8.02 sec)
+[2025.06.20-01.19.27:775][208]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.19.27:775][208]LogContentValidation: Enabled validators:
+[2025.06.20-01.19.27:775][208]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.19.27:775][208]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.19.27:775][208]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.19.27:775][208]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.19.27:775][208]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.19.27:775][208]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.19.27:775][208]AssetCheck: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base Validating asset
+[2025.06.20-01.19.31:647][399]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 79100.851562
+[2025.06.20-01.19.32:664][402]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.20-01.19.32:664][402]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 79101.531250, Update Interval: 321.517395
+[2025.06.20-01.19.42:537][710]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.20.11:707][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2025.06.20-01.20.11:708][ 22]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level_Dungeon' took 0.041
+[2025.06.20-01.20.11:711][ 22]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base] ([2] browsable assets)...
+[2025.06.20-01.20.11:711][ 22]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base]
+[2025.06.20-01.20.11:720][ 22]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Items/Projectiles/BP_Projectile_Base_Auto5
+[2025.06.20-01.20.11:721][ 22]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Projectile_Base_Auto5B8F1F513426E25EFB6E167BD6E8AB03F.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/Autosaves/Game/Blueprints/Items/Projectiles/BP_Projectile_Base_Auto5.uasset'
+[2025.06.20-01.20.11:725][ 22]LogFileHelpers: Auto-saving content packages took 0.016
+[2025.06.20-01.20.11:833][ 23]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.20.37:757][101]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.21.05:751][929]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.21.18:141][466]LogDerivedDataCache: C:/Users/fkeme/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.06.20-01.21.31:494][850]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.21.55:200][251]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2025.06.20-01.21.55:251][251]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.21.55:347][251]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base] ([2] browsable assets)...
+[2025.06.20-01.21.55:347][251]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base]
+[2025.06.20-01.21.55:356][251]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base
+[2025.06.20-01.21.55:358][251]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Projectile_Base6FAD360D4523E7760AA3739CBBC9DB5A.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Items/Projectiles/BP_Projectile_Base.uasset'
+[2025.06.20-01.21.55:374][251]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.404 ms (total: 8.14 sec)
+[2025.06.20-01.21.55:477][251]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.21.55:477][251]LogContentValidation: Enabled validators:
+[2025.06.20-01.21.55:477][251]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.21.55:477][251]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.21.55:477][251]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.21.55:477][251]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.21.55:477][251]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.21.55:477][251]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.21.55:477][251]AssetCheck: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base Validating asset
+[2025.06.20-01.21.58:360][414]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-01.21.58:370][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-01.21.58:371][414]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.21.58:376][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004672s)
+[2025.06.20-01.21.58:376][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.004722s)
+[2025.06.20-01.21.58:411][414]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2025.06.20-01.21.58:415][414]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-01.21.58:417][414]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-01.21.58:417][414]LogPlayLevel: PIE: World Init took: (0.003102s)
+[2025.06.20-01.21.58:419][414]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.06.20-01.21.58:419][414]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-01.21.58:419][414]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-01.21.58:419][414]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-01.21.58:419][414]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-01.21.58:419][414]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-01.21.58:419][414]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-01.21.58:419][414]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-01.21.58:419][414]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-01.21.58:419][414]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-01.21.58:419][414]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-01.21.58:419][414]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-01.21.58:423][414]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-01.21.58:457][414]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-01.21.58:457][414]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-01.21.58:457][414]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-01.21.58:457][414]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-01.21.58:458][414]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.06.20-01.21.58:458][414]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.06.20-01.21.58:462][414]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.06.20-01.21.58:462][414]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.06.20-01.21.58:462][414]LogInit: FAudioDevice initialized with ID 16.
+[2025.06.20-01.21.58:462][414]LogAudio: Display: Audio Device (ID: 16) registered with world 'Level_Dungeon'.
+[2025.06.20-01.21.58:462][414]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.06.20-01.21.58:470][414]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-01.21.58:471][414]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-21.21.58
+[2025.06.20-01.21.58:472][414]LogWorld: Bringing up level for play took: 0.001601
+[2025.06.20-01.21.58:476][414]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2025.06.20-01.21.58:481][414]PIE: Server logged in
+[2025.06.20-01.21.58:482][414]PIE: Play in editor total start time 0.113 seconds.
+[2025.06.20-01.21.59:865][491]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.21.59:865][491]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=16
+[2025.06.20-01.22.03:625][714]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.22.04:036][722]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_0] BP_Hero0
+[2025.06.20-01.22.07:243][915]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.22.07:379][923]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_1] BP_Hero0
+[2025.06.20-01.22.07:509][931]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_1] BP_Boar
+[2025.06.20-01.22.07:590][934]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_1] BP_Skeleton
+[2025.06.20-01.22.11:274][155]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.22.11:410][163]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_2] BP_Hero0
+[2025.06.20-01.22.12:132][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.22.12:132][205]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.22.12:133][205]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-01.22.12:133][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.22.12:138][205]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-01.22.12:147][205]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.22.12:181][205]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.20-01.22.12:182][205]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.06.20-01.22.12:182][205]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.06.20-01.22.12:184][205]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.06.20-01.22.12:192][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.22.12:196][205]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2025.06.20-01.22.12:238][206]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2025.06.20-01.22.31:243][102]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.22.56:496][296]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.23.11:940][172]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2025.06.20-01.23.11:980][172]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.23.12:102][172]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/Hero/BP_Hero] ([2] browsable assets)...
+[2025.06.20-01.23.12:103][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Hero/BP_Hero]
+[2025.06.20-01.23.12:103][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Hero/BP_Hero" FILE="C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Characters/Hero/BP_Hero.uasset" SILENT=true
+[2025.06.20-01.23.12:174][172]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Hero/BP_Hero
+[2025.06.20-01.23.12:176][172]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Hero9018718D40A54DA3BFDBBEAE002FD1C1.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Characters/Hero/BP_Hero.uasset'
+[2025.06.20-01.23.12:193][172]LogFileHelpers: InternalPromptForCheckoutAndSave took 212.310 ms (total: 8.35 sec)
+[2025.06.20-01.23.12:300][172]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.23.12:300][172]LogContentValidation: Enabled validators:
+[2025.06.20-01.23.12:300][172]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.23.12:300][172]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.23.12:300][172]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.23.12:300][172]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.23.12:300][172]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.23.12:300][172]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.23.12:300][172]AssetCheck: /Game/Blueprints/Characters/Hero/BP_Hero Validating asset
+[2025.06.20-01.23.16:169][390]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-01.23.16:182][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-01.23.16:182][390]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.23.16:188][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004878s)
+[2025.06.20-01.23.16:188][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.004941s)
+[2025.06.20-01.23.16:231][390]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2025.06.20-01.23.16:232][390]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-01.23.16:235][390]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-01.23.16:235][390]LogPlayLevel: PIE: World Init took: (0.002407s)
+[2025.06.20-01.23.16:237][390]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2025.06.20-01.23.16:237][390]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-01.23.16:237][390]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-01.23.16:237][390]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-01.23.16:237][390]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-01.23.16:237][390]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-01.23.16:237][390]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-01.23.16:237][390]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-01.23.16:237][390]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-01.23.16:237][390]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-01.23.16:237][390]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-01.23.16:238][390]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-01.23.16:240][390]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-01.23.16:273][390]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-01.23.16:274][390]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-01.23.16:274][390]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-01.23.16:274][390]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-01.23.16:274][390]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2025.06.20-01.23.16:274][390]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2025.06.20-01.23.16:279][390]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2025.06.20-01.23.16:279][390]LogInit: FAudioDevice initialized with ID 17.
+[2025.06.20-01.23.16:279][390]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2025.06.20-01.23.16:279][390]LogAudio: Display: Audio Device (ID: 17) registered with world 'Level_Dungeon'.
+[2025.06.20-01.23.16:279][390]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2025.06.20-01.23.16:282][390]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-01.23.16:283][390]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-21.23.16
+[2025.06.20-01.23.16:285][390]LogWorld: Bringing up level for play took: 0.001778
+[2025.06.20-01.23.16:288][390]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2025.06.20-01.23.16:293][390]PIE: Server logged in
+[2025.06.20-01.23.16:294][390]PIE: Play in editor total start time 0.112 seconds.
+[2025.06.20-01.23.21:799][719]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.23.23:286][792]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.23.23:518][806]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_0] BP_Boar
+[2025.06.20-01.23.23:518][806]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_0] BP_Skeleton
+[2025.06.20-01.23.24:933][882]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.23.24:933][882]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=17
+[2025.06.20-01.23.26:339][965]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.23.26:571][979]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_1] BP_Boar
+[2025.06.20-01.23.26:638][983]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_1] BP_Skeleton
+[2025.06.20-01.23.28:224][ 78]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.23.31:998][303]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.23.32:215][316]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_3] BP_Skeleton
+[2025.06.20-01.23.34:033][425]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.23.36:533][575]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.23.36:766][589]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_5] BP_Skeleton
+[2025.06.20-01.23.39:633][761]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.23.39:866][775]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_6] BP_Boar
+[2025.06.20-01.23.42:382][926]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.23.46:068][147]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.23.46:266][159]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_8] BP_Boar
+[2025.06.20-01.23.46:367][165]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_8] BP_Skeleton
+[2025.06.20-01.23.48:783][310]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.23.50:651][422]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.23.50:838][433]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_10] BP_Boar
+[2025.06.20-01.23.50:872][435]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_10] BP_Skeleton
+[2025.06.20-01.23.52:290][513]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=17
+[2025.06.20-01.23.52:995][551]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.23.54:844][662]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.23.57:117][798]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.23.57:565][825]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.24.00:890][ 12]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.24.04:308][217]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.24.10:862][599]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.24.11:481][636]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.24.20:179][154]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.24.21:472][222]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.24.24:752][418]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.24.25:087][438]LogBlueprintUserMessages: [BP_Projectile_Arrow_C_18] BP_Skeleton
+[2025.06.20-01.24.26:892][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.24.26:892][528]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.24.26:892][528]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-01.24.26:893][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.24.26:898][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-01.24.26:904][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.24.26:933][528]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.20-01.24.26:934][528]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2025.06.20-01.24.26:934][528]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2025.06.20-01.24.26:937][528]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2025.06.20-01.24.26:944][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.24.26:950][528]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2025.06.20-01.24.27:001][529]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.06.20-01.24.40:111][273]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.24.55:171][368]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.25.17:398][539]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.25.29:744][182]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 79448.601562
+[2025.06.20-01.25.29:826][187]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.20-01.25.29:826][187]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 79448.664062, Update Interval: 336.343872
+[2025.06.20-01.25.39:754][775]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.26.02:337][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2025.06.20-01.26.02:396][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.26.02:492][ 87]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base] ([2] browsable assets)...
+[2025.06.20-01.26.02:492][ 87]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base]
+[2025.06.20-01.26.02:501][ 87]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base
+[2025.06.20-01.26.02:504][ 87]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Projectile_Base8B726A6A49EBC1D2EC3CEDAA7531B45F.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Items/Projectiles/BP_Projectile_Base.uasset'
+[2025.06.20-01.26.02:519][ 87]LogFileHelpers: InternalPromptForCheckoutAndSave took 123.485 ms (total: 8.48 sec)
+[2025.06.20-01.26.02:629][ 87]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.26.02:629][ 87]LogContentValidation: Enabled validators:
+[2025.06.20-01.26.02:629][ 87]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.26.02:629][ 87]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.26.02:629][ 87]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.26.02:629][ 87]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.26.02:629][ 87]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.26.02:629][ 87]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.26.02:629][ 87]AssetCheck: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base Validating asset
+[2025.06.20-01.26.04:476][189]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.26.16:847][912]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.26.16:942][912]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base] ([2] browsable assets)...
+[2025.06.20-01.26.16:942][912]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base]
+[2025.06.20-01.26.16:951][912]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base
+[2025.06.20-01.26.16:953][912]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Projectile_BaseEF505B134AFCA8034726B48597558DB8.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Items/Projectiles/BP_Projectile_Base.uasset'
+[2025.06.20-01.26.16:968][912]LogFileHelpers: InternalPromptForCheckoutAndSave took 120.917 ms (total: 8.60 sec)
+[2025.06.20-01.26.17:077][912]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.26.17:077][912]LogContentValidation: Enabled validators:
+[2025.06.20-01.26.17:077][912]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.26.17:077][912]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.26.17:077][912]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.26.17:077][912]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.26.17:077][912]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.26.17:077][912]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.26.17:077][912]AssetCheck: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base Validating asset
+[2025.06.20-01.26.21:550][158]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.26.45:452][404]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.27.02:711][369]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.27.20:439][410]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2025.06.20-01.27.20:487][410]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.27.20:593][410]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base] ([2] browsable assets)...
+[2025.06.20-01.27.20:593][410]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base]
+[2025.06.20-01.27.20:602][410]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base
+[2025.06.20-01.27.20:604][410]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Projectile_BaseC4CC9F2D4407F66E88CD02A5280F2E90.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Items/Projectiles/BP_Projectile_Base.uasset'
+[2025.06.20-01.27.20:619][410]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.814 ms (total: 8.73 sec)
+[2025.06.20-01.27.20:727][410]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.27.20:727][410]LogContentValidation: Enabled validators:
+[2025.06.20-01.27.20:727][410]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.27.20:727][410]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.27.20:727][410]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.27.20:727][410]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.27.20:727][410]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.27.20:727][410]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.27.20:727][410]AssetCheck: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base Validating asset
+[2025.06.20-01.27.29:803][678]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.27.47:800][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2025.06.20-01.27.47:843][216]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.27.47:945][216]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base] ([2] browsable assets)...
+[2025.06.20-01.27.47:945][216]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base]
+[2025.06.20-01.27.47:955][216]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base
+[2025.06.20-01.27.47:957][216]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Projectile_Base8D45DC754478C4C8ABDA33BD8DA5BB39.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Items/Projectiles/BP_Projectile_Base.uasset'
+[2025.06.20-01.27.47:973][216]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.001 ms (total: 8.86 sec)
+[2025.06.20-01.27.48:084][216]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.27.48:084][216]LogContentValidation: Enabled validators:
+[2025.06.20-01.27.48:086][216]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.27.48:086][216]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.27.48:086][216]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.27.48:086][216]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.27.48:086][216]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.27.48:086][216]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.27.48:086][216]AssetCheck: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base Validating asset
+[2025.06.20-01.27.53:391][520]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.28.04:768][186]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2025.06.20-01.28.04:820][186]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.28.04:928][186]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base] ([2] browsable assets)...
+[2025.06.20-01.28.04:928][186]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base]
+[2025.06.20-01.28.04:939][186]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base
+[2025.06.20-01.28.04:943][186]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Projectile_Base73043E0F42EA241D65893F8F63B480CD.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Items/Projectiles/BP_Projectile_Base.uasset'
+[2025.06.20-01.28.04:968][186]LogFileHelpers: InternalPromptForCheckoutAndSave took 147.386 ms (total: 9.01 sec)
+[2025.06.20-01.28.05:079][186]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.28.05:079][186]LogContentValidation: Enabled validators:
+[2025.06.20-01.28.05:079][186]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.28.05:079][186]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.28.05:079][186]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.28.05:079][186]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.28.05:079][186]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.28.05:079][186]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.28.05:080][186]AssetCheck: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base Validating asset
+[2025.06.20-01.28.12:426][598]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2025.06.20-01.28.12:466][598]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.28.12:569][598]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base] ([2] browsable assets)...
+[2025.06.20-01.28.12:569][598]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base]
+[2025.06.20-01.28.12:580][598]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base
+[2025.06.20-01.28.12:582][598]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Projectile_Base0423AAE342056746BF57EEB498ACAA44.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Items/Projectiles/BP_Projectile_Base.uasset'
+[2025.06.20-01.28.12:602][598]LogFileHelpers: InternalPromptForCheckoutAndSave took 137.215 ms (total: 9.14 sec)
+[2025.06.20-01.28.12:719][598]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.28.12:719][598]LogContentValidation: Enabled validators:
+[2025.06.20-01.28.12:719][598]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.28.12:719][598]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.28.12:719][598]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.28.12:719][598]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.28.12:719][598]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.28.12:719][598]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.28.12:721][598]AssetCheck: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base Validating asset
+[2025.06.20-01.28.15:193][736]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-01.28.15:203][736]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-01.28.15:203][736]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.28.15:207][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004790s)
+[2025.06.20-01.28.15:208][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.004852s)
+[2025.06.20-01.28.15:242][736]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2025.06.20-01.28.15:244][736]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-01.28.15:246][736]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-01.28.15:246][736]LogPlayLevel: PIE: World Init took: (0.002331s)
+[2025.06.20-01.28.15:248][736]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.06.20-01.28.15:248][736]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-01.28.15:248][736]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-01.28.15:248][736]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-01.28.15:248][736]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-01.28.15:248][736]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-01.28.15:248][736]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-01.28.15:248][736]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-01.28.15:248][736]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-01.28.15:248][736]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-01.28.15:248][736]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-01.28.15:248][736]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-01.28.15:251][736]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-01.28.15:281][736]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-01.28.15:282][736]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-01.28.15:282][736]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-01.28.15:282][736]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-01.28.15:283][736]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.06.20-01.28.15:283][736]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.06.20-01.28.15:286][736]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.06.20-01.28.15:286][736]LogInit: FAudioDevice initialized with ID 18.
+[2025.06.20-01.28.15:286][736]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.06.20-01.28.15:286][736]LogAudio: Display: Audio Device (ID: 18) registered with world 'Level_Dungeon'.
+[2025.06.20-01.28.15:286][736]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.06.20-01.28.15:289][736]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-01.28.15:291][736]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-21.28.15
+[2025.06.20-01.28.15:292][736]LogWorld: Bringing up level for play took: 0.001850
+[2025.06.20-01.28.15:296][736]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2025.06.20-01.28.15:303][736]PIE: Server logged in
+[2025.06.20-01.28.15:304][736]PIE: Play in editor total start time 0.101 seconds.
+[2025.06.20-01.28.23:283][212]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.28.23:824][227]LogScript: Warning: Accessed None trying to read property self2
+	BP_Boar_C /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon:PersistentLevel.BP_Boar_C_2
+	Function /Game/Blueprints/Characters/BP_Char_Base.BP_Char_Base_C:KnockbackDirectionSetter:003A
+[2025.06.20-01.28.23:861][227]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property self2". Node:  Set KnockbackDirection Graph:  KnockbackDirectionSetter Function:  Knockback Direction Setter Blueprint:  BP_Char_Base
+[2025.06.20-01.28.26:731][392]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.28.26:731][392]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=18
+[2025.06.20-01.28.32:698][749]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.28.33:033][769]LogScript: Warning: Accessed None trying to read property self2
+	BP_Skeleton_C /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon:PersistentLevel.BP_Skeleton_C_2
+	Function /Game/Blueprints/Characters/BP_Char_Base.BP_Char_Base_C:KnockbackDirectionSetter:003A
+[2025.06.20-01.28.33:033][769]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property self2". Node:  Set KnockbackDirection Graph:  KnockbackDirectionSetter Function:  Knockback Direction Setter Blueprint:  BP_Char_Base
+[2025.06.20-01.28.35:416][912]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.28.35:665][927]LogScript: Warning: Accessed None trying to read property self2
+	BP_Skeleton_C /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon:PersistentLevel.BP_Skeleton_C_2
+	Function /Game/Blueprints/Characters/BP_Char_Base.BP_Char_Base_C:KnockbackDirectionSetter:003A
+[2025.06.20-01.28.35:665][927]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property self2". Node:  Set KnockbackDirection Graph:  KnockbackDirectionSetter Function:  Knockback Direction Setter Blueprint:  BP_Char_Base
+[2025.06.20-01.28.37:067][ 11]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.28.40:710][223]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=18
+[2025.06.20-01.28.40:710][223]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.28.40:912][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.28.40:913][229]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.28.40:913][229]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-01.28.40:913][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.28.40:917][229]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-01.28.40:924][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.28.40:957][229]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.20-01.28.40:957][229]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.06.20-01.28.40:957][229]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.06.20-01.28.40:959][229]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.06.20-01.28.40:968][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.28.40:973][229]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2025.06.20-01.28.41:499][230]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2025.06.20-01.28.44:268][391]LogSlate: Window 'Message Log' being destroyed
+[2025.06.20-01.28.44:287][391]LogSlate: Window 'Message Log' being destroyed
+[2025.06.20-01.28.51:820][835]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-01.28.51:837][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-01.28.51:837][835]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.28.51:844][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006171s)
+[2025.06.20-01.28.51:844][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.006251s)
+[2025.06.20-01.28.51:889][835]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2025.06.20-01.28.51:891][835]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-01.28.51:894][835]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-01.28.51:894][835]LogPlayLevel: PIE: World Init took: (0.003665s)
+[2025.06.20-01.28.51:896][835]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2025.06.20-01.28.51:896][835]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-01.28.51:896][835]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-01.28.51:897][835]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-01.28.51:897][835]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-01.28.51:897][835]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-01.28.51:897][835]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-01.28.51:897][835]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-01.28.51:897][835]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-01.28.51:897][835]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-01.28.51:897][835]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-01.28.51:897][835]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-01.28.51:901][835]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-01.28.51:936][835]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-01.28.51:937][835]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-01.28.51:937][835]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-01.28.51:937][835]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-01.28.51:937][835]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2025.06.20-01.28.51:937][835]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2025.06.20-01.28.51:942][835]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2025.06.20-01.28.51:942][835]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2025.06.20-01.28.51:942][835]LogInit: FAudioDevice initialized with ID 19.
+[2025.06.20-01.28.51:942][835]LogAudio: Display: Audio Device (ID: 19) registered with world 'Level_Dungeon'.
+[2025.06.20-01.28.51:942][835]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2025.06.20-01.28.51:945][835]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-01.28.51:947][835]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-21.28.51
+[2025.06.20-01.28.51:948][835]LogWorld: Bringing up level for play took: 0.001853
+[2025.06.20-01.28.51:952][835]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2025.06.20-01.28.51:956][835]PIE: Server logged in
+[2025.06.20-01.28.51:958][835]PIE: Play in editor total start time 0.121 seconds.
+[2025.06.20-01.28.57:833][186]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.29.01:215][388]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.29.01:515][406]LogScript: Warning: Accessed None trying to read property self2
+	BP_Boar_C /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon:PersistentLevel.BP_Boar_C_2
+	Function /Game/Blueprints/Characters/BP_Char_Base.BP_Char_Base_C:KnockbackDirectionSetter:003A
+[2025.06.20-01.29.01:515][406]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property self2". Node:  Set KnockbackDirection Graph:  KnockbackDirectionSetter Function:  Knockback Direction Setter Blueprint:  BP_Char_Base
+[2025.06.20-01.29.01:598][411]LogScript: Warning: Accessed None trying to read property self2
+	BP_Skeleton_C /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon:PersistentLevel.BP_Skeleton_C_2
+	Function /Game/Blueprints/Characters/BP_Char_Base.BP_Char_Base_C:KnockbackDirectionSetter:003A
+[2025.06.20-01.29.01:598][411]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property self2". Node:  Set KnockbackDirection Graph:  KnockbackDirectionSetter Function:  Knockback Direction Setter Blueprint:  BP_Char_Base
+[2025.06.20-01.29.01:614][412]LogScript: Warning: Accessed None trying to read property self2
+	BP_Skeleton_C /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon:PersistentLevel.BP_Skeleton_C_2
+	Function /Game/Blueprints/Characters/BP_Char_Base.BP_Char_Base_C:KnockbackDirectionSetter:003A
+[2025.06.20-01.29.01:615][412]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property self2". Node:  Set KnockbackDirection Graph:  KnockbackDirectionSetter Function:  Knockback Direction Setter Blueprint:  BP_Char_Base
+[2025.06.20-01.29.02:848][486]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.29.03:098][501]LogScript: Warning: Accessed None trying to read property self2
+	BP_Boar_C /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon:PersistentLevel.BP_Boar_C_2
+	Function /Game/Blueprints/Characters/BP_Char_Base.BP_Char_Base_C:KnockbackDirectionSetter:003A
+[2025.06.20-01.29.03:098][501]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property self2". Node:  Set KnockbackDirection Graph:  KnockbackDirectionSetter Function:  Knockback Direction Setter Blueprint:  BP_Char_Base
+[2025.06.20-01.29.03:281][512]LogScript: Warning: Accessed None trying to read property self2
+	BP_Skeleton_C /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon:PersistentLevel.BP_Skeleton_C_2
+	Function /Game/Blueprints/Characters/BP_Char_Base.BP_Char_Base_C:KnockbackDirectionSetter:003A
+[2025.06.20-01.29.03:281][512]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property self2". Node:  Set KnockbackDirection Graph:  KnockbackDirectionSetter Function:  Knockback Direction Setter Blueprint:  BP_Char_Base
+[2025.06.20-01.29.05:598][651]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.29.07:654][774]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.29.08:069][792]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.29.09:406][868]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.29.10:092][909]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.29.11:489][993]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.29.12:656][ 63]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.29.13:293][101]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.29.13:892][137]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.29.14:925][199]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.29.19:722][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.29.19:722][485]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.29.19:723][485]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-01.29.19:723][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.29.19:728][485]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-01.29.19:735][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.29.19:769][485]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.29.19:769][485]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2025.06.20-01.29.19:769][485]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2025.06.20-01.29.19:772][485]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2025.06.20-01.29.19:786][485]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2025.06.20-01.29.20:011][486]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2025.06.20-01.29.26:775][867]LogSlate: Window 'Message Log' being destroyed
+[2025.06.20-01.29.26:795][867]LogSlate: Window 'Message Log' being destroyed
+[2025.06.20-01.29.31:354][961]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.30.03:713][679]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.30.26:680][  7]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.30.49:457][358]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2025.06.20-01.30.49:505][358]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.30.49:607][358]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base] ([2] browsable assets)...
+[2025.06.20-01.30.49:607][358]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base]
+[2025.06.20-01.30.49:618][358]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base
+[2025.06.20-01.30.49:621][358]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Projectile_Base21E83275410A19AFAC1DC0911D68D2DD.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Items/Projectiles/BP_Projectile_Base.uasset'
+[2025.06.20-01.30.49:636][358]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.363 ms (total: 9.28 sec)
+[2025.06.20-01.30.49:744][358]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.30.49:744][358]LogContentValidation: Enabled validators:
+[2025.06.20-01.30.49:744][358]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.30.49:744][358]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.30.49:744][358]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.30.49:745][358]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.30.49:745][358]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.30.49:745][358]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.30.49:745][358]AssetCheck: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base Validating asset
+[2025.06.20-01.30.53:959][600]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-01.30.53:974][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-01.30.53:974][600]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.30.53:977][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003463s)
+[2025.06.20-01.30.53:977][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.003535s)
+[2025.06.20-01.30.54:024][600]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2025.06.20-01.30.54:026][600]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-01.30.54:028][600]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-01.30.54:029][600]LogPlayLevel: PIE: World Init took: (0.003254s)
+[2025.06.20-01.30.54:031][600]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2025.06.20-01.30.54:031][600]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-01.30.54:031][600]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-01.30.54:031][600]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-01.30.54:031][600]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-01.30.54:031][600]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-01.30.54:032][600]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-01.30.54:032][600]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-01.30.54:032][600]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-01.30.54:032][600]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-01.30.54:032][600]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-01.30.54:032][600]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-01.30.54:037][600]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-01.30.54:081][600]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-01.30.54:082][600]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-01.30.54:082][600]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-01.30.54:082][600]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-01.30.54:083][600]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2025.06.20-01.30.54:083][600]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2025.06.20-01.30.54:087][600]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2025.06.20-01.30.54:087][600]LogInit: FAudioDevice initialized with ID 20.
+[2025.06.20-01.30.54:087][600]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2025.06.20-01.30.54:087][600]LogAudio: Display: Audio Device (ID: 20) registered with world 'Level_Dungeon'.
+[2025.06.20-01.30.54:087][600]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2025.06.20-01.30.54:092][600]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-01.30.54:093][600]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-21.30.54
+[2025.06.20-01.30.54:094][600]LogWorld: Bringing up level for play took: 0.002053
+[2025.06.20-01.30.54:099][600]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2025.06.20-01.30.54:104][600]PIE: Server logged in
+[2025.06.20-01.30.54:105][600]PIE: Play in editor total start time 0.133 seconds.
+[2025.06.20-01.30.54:502][619]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=20
+[2025.06.20-01.30.57:014][763]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.31.02:449][ 89]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.31.05:959][298]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.31.07:411][385]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.31.08:533][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.31.08:533][450]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.31.08:533][450]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-01.31.08:533][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.31.08:539][450]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-01.31.08:545][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.31.08:584][450]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.20-01.31.08:585][450]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2025.06.20-01.31.08:585][450]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2025.06.20-01.31.08:588][450]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2025.06.20-01.31.08:598][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.31.08:603][450]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2025.06.20-01.31.08:654][451]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2025.06.20-01.31.18:496][677]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.31.38:592][737]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.31.55:424][821]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.32.03:118][844]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 79828.375000
+[2025.06.20-01.32.04:119][847]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.20-01.32.04:119][847]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 79829.046875, Update Interval: 354.733734
+[2025.06.20-01.32.20:183][895]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.32.31:154][446]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-01.32.31:168][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-01.32.31:201][446]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.32.31:203][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002849s)
+[2025.06.20-01.32.31:203][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.002903s)
+[2025.06.20-01.32.31:247][446]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2025.06.20-01.32.31:248][446]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-01.32.31:249][446]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-01.32.31:250][446]LogPlayLevel: PIE: World Init took: (0.002414s)
+[2025.06.20-01.32.31:251][446]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2025.06.20-01.32.31:251][446]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-01.32.31:251][446]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-01.32.31:251][446]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-01.32.31:251][446]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-01.32.31:251][446]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-01.32.31:251][446]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-01.32.31:251][446]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-01.32.31:251][446]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-01.32.31:251][446]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-01.32.31:251][446]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-01.32.31:251][446]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-01.32.31:255][446]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-01.32.31:292][446]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-01.32.31:293][446]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-01.32.31:293][446]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-01.32.31:293][446]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-01.32.31:294][446]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2025.06.20-01.32.31:294][446]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2025.06.20-01.32.31:297][446]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2025.06.20-01.32.31:297][446]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2025.06.20-01.32.31:297][446]LogInit: FAudioDevice initialized with ID 21.
+[2025.06.20-01.32.31:297][446]LogAudio: Display: Audio Device (ID: 21) registered with world 'Level_Dungeon'.
+[2025.06.20-01.32.31:297][446]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2025.06.20-01.32.31:302][446]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-01.32.31:303][446]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-21.32.31
+[2025.06.20-01.32.31:304][446]LogWorld: Bringing up level for play took: 0.001744
+[2025.06.20-01.32.31:308][446]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.06.20-01.32.31:314][446]PIE: Server logged in
+[2025.06.20-01.32.31:315][446]PIE: Play in editor total start time 0.148 seconds.
+[2025.06.20-01.32.37:387][790]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.32.38:457][845]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.32.40:855][987]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.32.43:449][141]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.32.45:504][263]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.32.46:887][346]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.32.48:337][433]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.32.49:854][524]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.32.52:523][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.32.52:523][682]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.32.52:523][682]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-01.32.52:524][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.32.52:531][682]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-01.32.52:541][682]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.32.52:583][682]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.32.52:584][682]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2025.06.20-01.32.52:584][682]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2025.06.20-01.32.52:587][682]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2025.06.20-01.32.52:602][682]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2025.06.20-01.32.52:786][683]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2025.06.20-01.32.54:769][794]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.33.04:285][324]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.33.04:422][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_Dungeon" FILE="C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Levels/Level_Dungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.06.20-01.33.04:532][324]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2025.06.20-01.33.04:595][324]LogSavePackage: Moving output files for package: /Game/Levels/Level_Dungeon
+[2025.06.20-01.33.04:597][324]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/Level_Dungeon4AD0DA1441DD096DB0EF438CB0163F96.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Levels/Level_Dungeon.umap'
+[2025.06.20-01.33.04:619][324]LogFileHelpers: Saving map 'Level_Dungeon' took 0.198
+[2025.06.20-01.33.04:635][324]LogFileHelpers: InternalPromptForCheckoutAndSave took 350.241 ms (total: 9.63 sec)
+[2025.06.20-01.33.04:748][324]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.33.04:748][324]LogContentValidation: Enabled validators:
+[2025.06.20-01.33.04:749][324]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.33.04:749][324]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.33.04:749][324]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.33.04:749][324]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.33.04:749][324]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.33.04:749][324]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.33.04:749][324]AssetCheck: /Game/Levels/Level_Dungeon Validating asset
+[2025.06.20-01.33.07:818][458]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.33.33:517][ 24]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.33.35:158][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2025.06.20-01.33.35:216][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.33.35:332][ 97]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base] ([2] browsable assets)...
+[2025.06.20-01.33.35:332][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base]
+[2025.06.20-01.33.35:344][ 97]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base
+[2025.06.20-01.33.35:346][ 97]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Projectile_BaseC9C563A6440B94189779BB95D8F2F9CA.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Items/Projectiles/BP_Projectile_Base.uasset'
+[2025.06.20-01.33.35:365][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave took 148.735 ms (total: 9.77 sec)
+[2025.06.20-01.33.35:476][ 97]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.33.35:476][ 97]LogContentValidation: Enabled validators:
+[2025.06.20-01.33.35:476][ 97]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.33.35:476][ 97]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.33.35:476][ 97]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.33.35:476][ 97]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.33.35:476][ 97]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.33.35:476][ 97]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.33.35:476][ 97]AssetCheck: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base Validating asset
+[2025.06.20-01.34.02:416][456]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.34.29:672][825]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.34.29:833][826]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-01.34.29:833][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.34.30:242][826]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2025.06.20-01.34.32:857][976]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-01.34.32:857][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.34.32:945][976]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2025.06.20-01.34.43:118][569]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Characters/BP_Char_Base.BP_Char_Base
+[2025.06.20-01.34.43:119][569]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.06.20-01.34.43:120][569]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_10'.
+[2025.06.20-01.34.54:869][166]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.35.17:282][433]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.35.41:323][754]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.36.09:693][343]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.36.39:180][ 57]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.36.57:531][124]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.37.35:532][308]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.38.05:977][774]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.38.26:153][835]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.38.39:183][874]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.38.54:706][920]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 80231.039062
+[2025.06.20-01.38.55:751][923]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.20-01.38.55:751][923]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 80231.742188, Update Interval: 350.840790
+[2025.06.20-01.39.06:001][295]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.39.30:971][782]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.40.12:205][212]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.40.39:957][846]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.41.04:785][453]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.41.31:429][533]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.41.54:770][354]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.42.12:500][355]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2025.06.20-01.42.12:592][355]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.42.12:702][355]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/BP_Char_Base] ([2] browsable assets)...
+[2025.06.20-01.42.12:702][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/BP_Char_Base]
+[2025.06.20-01.42.12:702][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/BP_Char_Base" FILE="C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Characters/BP_Char_Base.uasset" SILENT=true
+[2025.06.20-01.42.12:730][355]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/BP_Char_Base
+[2025.06.20-01.42.12:732][355]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Char_Base1BF536834B29BDEBDA39F9A2E4BAE953.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Characters/BP_Char_Base.uasset'
+[2025.06.20-01.42.12:747][355]LogFileHelpers: InternalPromptForCheckoutAndSave took 154.650 ms (total: 9.93 sec)
+[2025.06.20-01.42.12:865][355]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.42.12:865][355]LogContentValidation: Enabled validators:
+[2025.06.20-01.42.12:865][355]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.42.12:865][355]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.42.12:865][355]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.42.12:865][355]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.42.12:865][355]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.42.12:865][355]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.42.12:865][355]AssetCheck: /Game/Blueprints/Characters/BP_Char_Base Validating asset
+[2025.06.20-01.42.18:745][562]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.42.45:601][496]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.43.12:292][681]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.43.41:686][769]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.43.52:271][801]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.44.15:756][871]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.44.39:438][ 53]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-01.44.39:448][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-01.44.39:448][ 53]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.44.39:456][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006642s)
+[2025.06.20-01.44.39:456][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.006707s)
+[2025.06.20-01.44.39:494][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2025.06.20-01.44.39:500][ 53]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-01.44.39:502][ 53]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-01.44.39:503][ 53]LogPlayLevel: PIE: World Init took: (0.003888s)
+[2025.06.20-01.44.39:506][ 53]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2025.06.20-01.44.39:506][ 53]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-01.44.39:506][ 53]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-01.44.39:506][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-01.44.39:506][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-01.44.39:506][ 53]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-01.44.39:506][ 53]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-01.44.39:506][ 53]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-01.44.39:506][ 53]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-01.44.39:506][ 53]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-01.44.39:506][ 53]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-01.44.39:506][ 53]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-01.44.39:510][ 53]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-01.44.39:541][ 53]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-01.44.39:542][ 53]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-01.44.39:542][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-01.44.39:542][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-01.44.39:542][ 53]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2025.06.20-01.44.39:542][ 53]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2025.06.20-01.44.39:545][ 53]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2025.06.20-01.44.39:546][ 53]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2025.06.20-01.44.39:546][ 53]LogInit: FAudioDevice initialized with ID 22.
+[2025.06.20-01.44.39:546][ 53]LogAudio: Display: Audio Device (ID: 22) registered with world 'Level_Dungeon'.
+[2025.06.20-01.44.39:546][ 53]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2025.06.20-01.44.39:630][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.44.39:631][ 53]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-01.44.39:632][ 53]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-21.44.39
+[2025.06.20-01.44.39:636][ 53]LogWorld: Bringing up level for play took: 0.004545
+[2025.06.20-01.44.39:640][ 53]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.06.20-01.44.39:650][ 53]PIE: Server logged in
+[2025.06.20-01.44.39:652][ 53]PIE: Play in editor total start time 0.204 seconds.
+[2025.06.20-01.44.40:044][ 64]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.44.45:484][346]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.44.47:176][438]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.44.48:780][525]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.44.50:482][604]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.44.53:293][757]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.44.55:891][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.44.55:891][901]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.44.55:891][901]LogSlate: Window 'UdemyProject003 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.06.20-01.44.55:898][901]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-01.44.55:898][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.44.55:904][901]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-01.44.55:913][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.44.55:948][901]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.20-01.44.55:948][901]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2025.06.20-01.44.55:948][901]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2025.06.20-01.44.55:952][901]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2025.06.20-01.44.55:965][901]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2025.06.20-01.44.56:086][902]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.06.20-01.45.10:248][ 74]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.45.25:111][118]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 80615.218750
+[2025.06.20-01.45.26:112][121]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.20-01.45.26:112][121]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 80615.890625, Update Interval: 344.937286
+[2025.06.20-01.45.35:607][263]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.45.46:389][909]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-01.45.46:399][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-01.45.46:399][909]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.45.46:403][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003630s)
+[2025.06.20-01.45.46:403][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.003681s)
+[2025.06.20-01.45.46:445][909]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2025.06.20-01.45.46:445][909]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-01.45.46:448][909]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-01.45.46:449][909]LogPlayLevel: PIE: World Init took: (0.002293s)
+[2025.06.20-01.45.46:450][909]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2025.06.20-01.45.46:450][909]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-01.45.46:450][909]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-01.45.46:450][909]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-01.45.46:450][909]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-01.45.46:450][909]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-01.45.46:450][909]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-01.45.46:450][909]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-01.45.46:450][909]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-01.45.46:450][909]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-01.45.46:450][909]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-01.45.46:450][909]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-01.45.46:454][909]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-01.45.46:485][909]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-01.45.46:487][909]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-01.45.46:487][909]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-01.45.46:487][909]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-01.45.46:488][909]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2025.06.20-01.45.46:488][909]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2025.06.20-01.45.46:490][909]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2025.06.20-01.45.46:490][909]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2025.06.20-01.45.46:490][909]LogInit: FAudioDevice initialized with ID 23.
+[2025.06.20-01.45.46:490][909]LogAudio: Display: Audio Device (ID: 23) registered with world 'Level_Dungeon'.
+[2025.06.20-01.45.46:490][909]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2025.06.20-01.45.46:563][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.45.46:564][909]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-01.45.46:565][909]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-21.45.46
+[2025.06.20-01.45.46:567][909]LogWorld: Bringing up level for play took: 0.002513
+[2025.06.20-01.45.46:571][909]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2025.06.20-01.45.46:580][909]PIE: Server logged in
+[2025.06.20-01.45.46:581][909]PIE: Play in editor total start time 0.181 seconds.
+[2025.06.20-01.45.51:848][208]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.45.53:622][312]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.45.57:394][530]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.45.59:336][637]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.46.00:868][725]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.46.04:698][945]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.46.06:075][ 18]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.46.09:801][237]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.46.11:361][328]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.46.11:361][328]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.46.11:361][328]LogSlate: Window 'UdemyProject003 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.06.20-01.46.11:370][328]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-01.46.11:371][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.46.11:375][328]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-01.46.11:389][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.46.11:440][328]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2025.06.20-01.46.11:440][328]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2025.06.20-01.46.11:444][328]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2025.06.20-01.46.11:461][328]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2025.06.20-01.46.11:595][329]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.06.20-01.46.20:071][813]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.46.43:003][158]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.46.43:722][194]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2025.06.20-01.46.43:766][194]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.46.43:868][194]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base] ([2] browsable assets)...
+[2025.06.20-01.46.43:868][194]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base]
+[2025.06.20-01.46.43:884][194]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base
+[2025.06.20-01.46.43:886][194]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Projectile_BaseA72275D34CC00C571F36CBB688181A11.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Items/Projectiles/BP_Projectile_Base.uasset'
+[2025.06.20-01.46.43:906][194]LogFileHelpers: InternalPromptForCheckoutAndSave took 141.162 ms (total: 10.0 sec)
+[2025.06.20-01.46.44:020][194]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.46.44:020][194]LogContentValidation: Enabled validators:
+[2025.06.20-01.46.44:020][194]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.46.44:021][194]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.46.44:021][194]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.46.44:021][194]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.46.44:021][194]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.46.44:021][194]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.46.44:021][194]AssetCheck: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base Validating asset
+[2025.06.20-01.47.03:815][347]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.47.19:283][274]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.47.19:386][274]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base] ([2] browsable assets)...
+[2025.06.20-01.47.19:386][274]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base]
+[2025.06.20-01.47.19:398][274]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base
+[2025.06.20-01.47.19:400][274]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Projectile_BaseA5630421457E168F23A84BBF9E788E65.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Items/Projectiles/BP_Projectile_Base.uasset'
+[2025.06.20-01.47.19:417][274]LogFileHelpers: InternalPromptForCheckoutAndSave took 134.023 ms (total: 10.2 sec)
+[2025.06.20-01.47.19:532][274]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.47.19:532][274]LogContentValidation: Enabled validators:
+[2025.06.20-01.47.19:532][274]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.47.19:532][274]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.47.19:532][274]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.47.19:532][274]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.47.19:532][274]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.47.19:532][274]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.47.19:532][274]AssetCheck: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base Validating asset
+[2025.06.20-01.47.28:985][831]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-01.47.28:997][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-01.47.28:997][831]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.47.29:000][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003087s)
+[2025.06.20-01.47.29:000][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.003133s)
+[2025.06.20-01.47.29:036][831]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2025.06.20-01.47.29:039][831]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-01.47.29:041][831]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-01.47.29:042][831]LogPlayLevel: PIE: World Init took: (0.002110s)
+[2025.06.20-01.47.29:043][831]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2025.06.20-01.47.29:043][831]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-01.47.29:043][831]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-01.47.29:043][831]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-01.47.29:043][831]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-01.47.29:043][831]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-01.47.29:043][831]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-01.47.29:043][831]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-01.47.29:043][831]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-01.47.29:043][831]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-01.47.29:043][831]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-01.47.29:043][831]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-01.47.29:047][831]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-01.47.29:079][831]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-01.47.29:081][831]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-01.47.29:081][831]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-01.47.29:081][831]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-01.47.29:082][831]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2025.06.20-01.47.29:082][831]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2025.06.20-01.47.29:085][831]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2025.06.20-01.47.29:085][831]LogInit: FAudioDevice initialized with ID 24.
+[2025.06.20-01.47.29:085][831]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2025.06.20-01.47.29:085][831]LogAudio: Display: Audio Device (ID: 24) registered with world 'Level_Dungeon'.
+[2025.06.20-01.47.29:085][831]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2025.06.20-01.47.29:088][831]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-01.47.29:090][831]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-21.47.29
+[2025.06.20-01.47.29:091][831]LogWorld: Bringing up level for play took: 0.001670
+[2025.06.20-01.47.29:094][831]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2025.06.20-01.47.29:099][831]PIE: Server logged in
+[2025.06.20-01.47.29:100][831]PIE: Play in editor total start time 0.103 seconds.
+[2025.06.20-01.47.30:817][925]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.47.35:198][187]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.47.38:999][415]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.47.40:649][514]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.47.42:582][630]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.47.44:251][730]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.47.46:336][855]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.47.47:772][941]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.47.50:062][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.47.50:062][ 75]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.47.50:062][ 75]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-01.47.50:063][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.47.50:066][ 75]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-01.47.50:073][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.47.50:103][ 75]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.20-01.47.50:104][ 75]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2025.06.20-01.47.50:104][ 75]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2025.06.20-01.47.50:107][ 75]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2025.06.20-01.47.50:115][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.47.50:118][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2025.06.20-01.47.50:260][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2025.06.20-01.47.53:563][262]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.48.15:842][354]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.48.38:371][421]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.48.55:110][ 62]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.49.01:796][431]LogAssetEditorSubsystem: Opening Asset editor for PaperTileMap /Game/PaperAssets/Environment/T_DungeonTiles_TileMap.T_DungeonTiles_TileMap
+[2025.06.20-01.49.02:070][431]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.06.20-01.49.02:071][431]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_11'.
+[2025.06.20-01.49.17:675][ 52]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.49.46:265][195]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.50.06:241][894]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.50.31:654][459]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.50.45:018][677]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2025.06.20-01.50.45:020][677]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level_Dungeon' took 0.083
+[2025.06.20-01.50.45:021][677]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Environment/T_DungeonTiles_TileMap] ([1] browsable assets)...
+[2025.06.20-01.50.45:022][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Environment/T_DungeonTiles_TileMap]
+[2025.06.20-01.50.45:026][677]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PaperAssets/Environment/T_DungeonTiles_TileMap_Auto6
+[2025.06.20-01.50.45:026][677]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/T_DungeonTiles_TileMap_Auto674DAD2A7427173B33966A78B7C503968.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/Autosaves/Game/PaperAssets/Environment/T_DungeonTiles_TileMap_Auto6.uasset'
+[2025.06.20-01.50.45:028][677]LogFileHelpers: Auto-saving content packages took 0.008
+[2025.06.20-01.50.47:209][756]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.50.47:347][756]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Environment/T_DungeonTiles_TileMap] ([1] browsable assets)...
+[2025.06.20-01.50.47:347][756]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Environment/T_DungeonTiles_TileMap]
+[2025.06.20-01.50.47:352][756]LogSavePackage: Moving output files for package: /Game/PaperAssets/Environment/T_DungeonTiles_TileMap
+[2025.06.20-01.50.47:355][756]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/T_DungeonTiles_TileMap1EC735B84924560B2E5B45BCF3B3F415.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/PaperAssets/Environment/T_DungeonTiles_TileMap.uasset'
+[2025.06.20-01.50.47:382][756]LogFileHelpers: InternalPromptForCheckoutAndSave took 172.959 ms (total: 10.3 sec)
+[2025.06.20-01.50.47:505][756]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.50.47:505][756]LogContentValidation: Enabled validators:
+[2025.06.20-01.50.47:505][756]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.50.47:506][756]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.50.47:506][756]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.50.47:506][756]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.50.47:506][756]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.50.47:506][756]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.50.47:506][756]AssetCheck: /Game/PaperAssets/Environment/T_DungeonTiles_TileMap Validating asset
+[2025.06.20-01.50.48:958][807]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.50.57:925][141]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.50.58:053][141]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Environment/T_DungeonTiles_TileMap] ([1] browsable assets)...
+[2025.06.20-01.50.58:053][141]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Environment/T_DungeonTiles_TileMap]
+[2025.06.20-01.50.58:064][141]LogSavePackage: Moving output files for package: /Game/PaperAssets/Environment/T_DungeonTiles_TileMap
+[2025.06.20-01.50.58:068][141]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/T_DungeonTiles_TileMapAEBACF11432F733550C83F869B121636.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/PaperAssets/Environment/T_DungeonTiles_TileMap.uasset'
+[2025.06.20-01.50.58:101][141]LogFileHelpers: InternalPromptForCheckoutAndSave took 176.102 ms (total: 10.5 sec)
+[2025.06.20-01.50.58:253][141]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.50.58:253][141]LogContentValidation: Enabled validators:
+[2025.06.20-01.50.58:253][141]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.50.58:253][141]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.50.58:253][141]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.50.58:253][141]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.50.58:253][141]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.50.58:253][141]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.50.58:253][141]AssetCheck: /Game/PaperAssets/Environment/T_DungeonTiles_TileMap Validating asset
+[2025.06.20-01.51.03:198][295]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.51.31:464][432]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.51.32:619][482]LogSlate: Window 'T_DungeonTiles_TileMap' being destroyed
+[2025.06.20-01.51.49:009][337]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 80991.578125
+[2025.06.20-01.51.49:148][345]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.20-01.51.49:148][345]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 80991.687500, Update Interval: 350.459900
+[2025.06.20-01.51.55:527][664]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.52.23:787][209]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.52.49:467][711]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.53.19:083][353]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.53.38:403][212]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.53.38:517][212]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PaperAssets/Environment/T_DungeonTiles_TileMap] ([1] browsable assets)...
+[2025.06.20-01.53.38:517][212]OBJ SavePackage: Finished generating thumbnails for package [/Game/PaperAssets/Environment/T_DungeonTiles_TileMap]
+[2025.06.20-01.53.38:523][212]LogSavePackage: Moving output files for package: /Game/PaperAssets/Environment/T_DungeonTiles_TileMap
+[2025.06.20-01.53.38:526][212]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/T_DungeonTiles_TileMap7E99A3734795D885D5E78DAA2D318EDC.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/PaperAssets/Environment/T_DungeonTiles_TileMap.uasset'
+[2025.06.20-01.53.38:543][212]LogFileHelpers: InternalPromptForCheckoutAndSave took 138.413 ms (total: 10.6 sec)
+[2025.06.20-01.53.38:660][212]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.53.38:660][212]LogContentValidation: Enabled validators:
+[2025.06.20-01.53.38:661][212]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.53.38:661][212]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.53.38:661][212]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.53.38:661][212]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.53.38:661][212]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.53.38:661][212]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.53.38:661][212]AssetCheck: /Game/PaperAssets/Environment/T_DungeonTiles_TileMap Validating asset
+[2025.06.20-01.53.46:383][663]LogShaderCompilers: Display: ================================================
+[2025.06.20-01.53.46:383][663]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.06.20-01.53.46:383][663]LogShaderCompilers: Display: Total job queries 52, among them cache hits 9 (17.31%), DDC hits 22 (42.31%), Duplicates 0 (0.00%)
+[2025.06.20-01.53.46:383][663]LogShaderCompilers: Display: Tracking 43 distinct input hashes that result in 33 distinct outputs (76.74%)
+[2025.06.20-01.53.46:383][663]LogShaderCompilers: Display: RAM used: 70.19 KiB of 819.20 MiB budget. Usage: 0.01%
+[2025.06.20-01.53.46:383][663]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.06.20-01.53.46:383][663]LogShaderCompilers: Display: Shaders Compiled: 21
+[2025.06.20-01.53.46:383][663]LogShaderCompilers: Display: Jobs assigned 21, completed 21 (100%)
+[2025.06.20-01.53.46:383][663]LogShaderCompilers: Display: Average time worker was idle: 2918.52 s
+[2025.06.20-01.53.46:383][663]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.13 s
+[2025.06.20-01.53.46:383][663]LogShaderCompilers: Display: Job execution time: average 5.71 s, max 16.54 s
+[2025.06.20-01.53.46:383][663]LogShaderCompilers: Display: Job life time (pending + execution): average 5.76 s, max 16.63
+[2025.06.20-01.53.46:383][663]LogShaderCompilers: Display: Shader code size: average 9.38 KiB, min 2.297 KiB, max 21.82 KiB
+[2025.06.20-01.53.46:385][663]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 47.65 s
+[2025.06.20-01.53.46:385][663]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.06.20-01.53.46:385][663]LogShaderCompilers: Display: Jobs were issued in 21 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.06.20-01.53.46:385][663]LogShaderCompilers: Display: Average processing rate: 0.44 jobs/sec
+[2025.06.20-01.53.46:385][663]LogShaderCompilers: Display: Total thread time: 40.513 s
+[2025.06.20-01.53.46:385][663]LogShaderCompilers: Display: Total thread preprocess time: 1.487 s
+[2025.06.20-01.53.46:385][663]LogShaderCompilers: Display: Percentage time preprocessing: 3.67%
+[2025.06.20-01.53.46:385][663]LogShaderCompilers: Display: Effective parallelization: 0.85 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.06.20-01.53.46:385][663]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.06.20-01.53.46:385][663]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 3.37 sec, max 3.37 sec, min 3.37 sec)
+[2025.06.20-01.53.46:385][663]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 2.95 sec, max 11.65 sec, min 0.79 sec)
+[2025.06.20-01.53.46:385][663]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 1.53 sec, max 1.53 sec, min 1.53 sec)
+[2025.06.20-01.53.46:385][663]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 1.52 sec, max 1.52 sec, min 1.52 sec)
+[2025.06.20-01.53.46:385][663]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 1.49 sec, max 1.49 sec, min 1.49 sec)
+[2025.06.20-01.53.46:386][663]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.06.20-01.53.46:386][663]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 43.62% of total time (compiled    6 times, average 2.95 sec, max 11.65 sec, min 0.79 sec)
+[2025.06.20-01.53.46:386][663]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.95% of total time (compiled    6 times, average 1.01 sec, max 2.12 sec, min 0.61 sec)
+[2025.06.20-01.53.46:386][663]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 8.32% of total time (compiled    1 times, average 3.37 sec, max 3.37 sec, min 3.37 sec)
+[2025.06.20-01.53.46:386][663]LogShaderCompilers: Display:                                                  FHitProxyPS - 3.77% of total time (compiled    1 times, average 1.53 sec, max 1.53 sec, min 1.53 sec)
+[2025.06.20-01.53.46:386][663]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 3.76% of total time (compiled    1 times, average 1.52 sec, max 1.52 sec, min 1.52 sec)
+[2025.06.20-01.53.46:386][663]LogShaderCompilers: Display: === Material stats ===
+[2025.06.20-01.53.46:386][663]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.06.20-01.53.46:386][663]LogShaderCompilers: Display: Materials Translated:    125
+[2025.06.20-01.53.46:386][663]LogShaderCompilers: Display: Material Total Translate Time: 0.20 s
+[2025.06.20-01.53.46:386][663]LogShaderCompilers: Display: Material Translation Only: 0.12 s (59%)
+[2025.06.20-01.53.46:386][663]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.06.20-01.53.46:386][663]LogShaderCompilers: Display: Material Cache Hits: 18 (14%)
+[2025.06.20-01.53.46:386][663]LogShaderCompilers: Display: ================================================
+[2025.06.20-01.53.48:045][759]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.54.01:381][358]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.54.29:132][441]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.54.53:585][904]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.55.19:311][542]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.55.37:083][568]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.55.37:190][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_Dungeon" FILE="C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Levels/Level_Dungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.06.20-01.55.37:276][568]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2025.06.20-01.55.37:293][568]LogSavePackage: Moving output files for package: /Game/Levels/Level_Dungeon
+[2025.06.20-01.55.37:296][568]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/Level_DungeonCBD3EF064003F777720D8BAF299F233A.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Levels/Level_Dungeon.umap'
+[2025.06.20-01.55.37:319][568]LogFileHelpers: Saving map 'Level_Dungeon' took 0.130
+[2025.06.20-01.55.37:336][568]LogFileHelpers: InternalPromptForCheckoutAndSave took 251.806 ms (total: 10.9 sec)
+[2025.06.20-01.55.37:451][568]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.55.37:451][568]LogContentValidation: Enabled validators:
+[2025.06.20-01.55.37:451][568]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.55.37:451][568]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.55.37:451][568]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.55.37:451][568]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.55.37:451][568]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.55.37:451][568]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.55.37:451][568]AssetCheck: /Game/Levels/Level_Dungeon Validating asset
+[2025.06.20-01.55.38:561][631]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-01.55.38:577][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-01.55.38:610][631]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.55.38:612][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003329s)
+[2025.06.20-01.55.38:612][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.003423s)
+[2025.06.20-01.55.38:647][631]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2025.06.20-01.55.38:647][631]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-01.55.38:649][631]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-01.55.38:650][631]LogPlayLevel: PIE: World Init took: (0.002733s)
+[2025.06.20-01.55.38:652][631]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2025.06.20-01.55.38:652][631]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-01.55.38:652][631]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-01.55.38:652][631]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-01.55.38:652][631]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-01.55.38:652][631]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-01.55.38:652][631]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-01.55.38:653][631]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-01.55.38:653][631]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-01.55.38:653][631]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-01.55.38:653][631]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-01.55.38:653][631]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-01.55.38:656][631]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-01.55.38:690][631]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-01.55.38:691][631]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-01.55.38:691][631]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-01.55.38:691][631]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-01.55.38:692][631]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2025.06.20-01.55.38:692][631]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2025.06.20-01.55.38:695][631]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2025.06.20-01.55.38:695][631]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2025.06.20-01.55.38:695][631]LogInit: FAudioDevice initialized with ID 25.
+[2025.06.20-01.55.38:695][631]LogAudio: Display: Audio Device (ID: 25) registered with world 'Level_Dungeon'.
+[2025.06.20-01.55.38:695][631]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2025.06.20-01.55.38:699][631]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-01.55.38:700][631]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-21.55.38
+[2025.06.20-01.55.38:701][631]LogWorld: Bringing up level for play took: 0.001885
+[2025.06.20-01.55.38:704][631]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2025.06.20-01.55.38:709][631]PIE: Server logged in
+[2025.06.20-01.55.38:712][631]PIE: Play in editor total start time 0.135 seconds.
+[2025.06.20-01.55.41:387][789]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.55.44:289][963]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.55.45:331][ 17]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.55.45:472][ 23]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.55.46:187][ 66]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.55.46:922][110]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.55.47:788][162]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.55.52:248][429]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.55.53:431][500]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.55.54:882][587]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.56.08:379][380]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.56.10:595][513]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.56.10:972][527]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.56.10:972][527]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=25
+[2025.06.20-01.56.11:557][560]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.56.12:240][601]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.56.12:875][639]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.56.14:471][734]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.56.17:930][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.56.17:930][940]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.56.17:931][940]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-01.56.17:931][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.56.17:936][940]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-01.56.17:943][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.56.17:975][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.56.17:975][940]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2025.06.20-01.56.17:975][940]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2025.06.20-01.56.17:980][940]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2025.06.20-01.56.17:994][940]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2025.06.20-01.56.18:141][941]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2025.06.20-01.56.40:600][153]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.57.05:211][227]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.57.32:304][248]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.57.56:829][321]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.58.06:366][713]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2025.06.20-01.58.06:414][713]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-01.58.06:525][713]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base] ([2] browsable assets)...
+[2025.06.20-01.58.06:525][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Items/Projectiles/BP_Projectile_Base]
+[2025.06.20-01.58.06:535][713]LogSavePackage: Moving output files for package: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base
+[2025.06.20-01.58.06:537][713]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Projectile_Base05588A1C4D1B080847A618B28987F07A.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Items/Projectiles/BP_Projectile_Base.uasset'
+[2025.06.20-01.58.06:551][713]LogFileHelpers: InternalPromptForCheckoutAndSave took 136.690 ms (total: 11.0 sec)
+[2025.06.20-01.58.06:705][713]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-01.58.06:705][713]LogContentValidation: Enabled validators:
+[2025.06.20-01.58.06:705][713]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-01.58.06:705][713]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-01.58.06:705][713]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-01.58.06:705][713]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-01.58.06:705][713]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-01.58.06:705][713]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-01.58.06:705][713]AssetCheck: /Game/Blueprints/Items/Projectiles/BP_Projectile_Base Validating asset
+[2025.06.20-01.58.16:307][271]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-01.58.16:320][271]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-01.58.16:320][271]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.58.16:324][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003624s)
+[2025.06.20-01.58.16:324][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.003699s)
+[2025.06.20-01.58.16:370][271]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2025.06.20-01.58.16:372][271]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-01.58.16:374][271]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-01.58.16:375][271]LogPlayLevel: PIE: World Init took: (0.002723s)
+[2025.06.20-01.58.16:377][271]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2025.06.20-01.58.16:377][271]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-01.58.16:377][271]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-01.58.16:377][271]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-01.58.16:377][271]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-01.58.16:377][271]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-01.58.16:377][271]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-01.58.16:377][271]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-01.58.16:377][271]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-01.58.16:377][271]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-01.58.16:377][271]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-01.58.16:377][271]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-01.58.16:382][271]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-01.58.16:417][271]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-01.58.16:417][271]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-01.58.16:417][271]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-01.58.16:417][271]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-01.58.16:419][271]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2025.06.20-01.58.16:419][271]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2025.06.20-01.58.16:423][271]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2025.06.20-01.58.16:423][271]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2025.06.20-01.58.16:423][271]LogInit: FAudioDevice initialized with ID 26.
+[2025.06.20-01.58.16:423][271]LogAudio: Display: Audio Device (ID: 26) registered with world 'Level_Dungeon'.
+[2025.06.20-01.58.16:423][271]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2025.06.20-01.58.16:427][271]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-01.58.16:427][271]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-21.58.16
+[2025.06.20-01.58.16:429][271]LogWorld: Bringing up level for play took: 0.002327
+[2025.06.20-01.58.16:434][271]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2025.06.20-01.58.16:439][271]PIE: Server logged in
+[2025.06.20-01.58.16:440][271]PIE: Play in editor total start time 0.121 seconds.
+[2025.06.20-01.58.18:668][403]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.20:077][487]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 81374.703125
+[2025.06.20-01.58.20:176][493]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.20-01.58.20:176][493]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 81374.781250, Update Interval: 308.560455
+[2025.06.20-01.58.20:317][502]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.20:819][532]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.21:401][567]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.21:870][595]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.22:368][625]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.22:986][662]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.23:002][663]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.23:272][670]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-01.58.24:250][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.58.24:250][725]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.58.24:251][725]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-01.58.24:251][725]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.58.24:256][725]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-01.58.24:263][725]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.58.24:300][725]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.20-01.58.24:300][725]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2025.06.20-01.58.24:301][725]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2025.06.20-01.58.24:304][725]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2025.06.20-01.58.24:313][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.58.24:318][725]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2025.06.20-01.58.24:461][726]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2025.06.20-01.58.25:977][815]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-01.58.25:991][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-01.58.25:991][815]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.58.25:995][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004687s)
+[2025.06.20-01.58.25:995][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.004743s)
+[2025.06.20-01.58.26:036][815]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2025.06.20-01.58.26:037][815]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-01.58.26:038][815]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-01.58.26:040][815]LogPlayLevel: PIE: World Init took: (0.002886s)
+[2025.06.20-01.58.26:042][815]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2025.06.20-01.58.26:042][815]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-01.58.26:042][815]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-01.58.26:042][815]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-01.58.26:042][815]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-01.58.26:042][815]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-01.58.26:042][815]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-01.58.26:042][815]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-01.58.26:042][815]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-01.58.26:042][815]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-01.58.26:042][815]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-01.58.26:042][815]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-01.58.26:047][815]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-01.58.26:089][815]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-01.58.26:089][815]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-01.58.26:090][815]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-01.58.26:090][815]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-01.58.26:090][815]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2025.06.20-01.58.26:090][815]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2025.06.20-01.58.26:095][815]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2025.06.20-01.58.26:095][815]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2025.06.20-01.58.26:095][815]LogInit: FAudioDevice initialized with ID 27.
+[2025.06.20-01.58.26:095][815]LogAudio: Display: Audio Device (ID: 27) registered with world 'Level_Dungeon'.
+[2025.06.20-01.58.26:095][815]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2025.06.20-01.58.26:099][815]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-01.58.26:100][815]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-21.58.26
+[2025.06.20-01.58.26:101][815]LogWorld: Bringing up level for play took: 0.002194
+[2025.06.20-01.58.26:105][815]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2025.06.20-01.58.26:111][815]PIE: Server logged in
+[2025.06.20-01.58.26:113][815]PIE: Play in editor total start time 0.123 seconds.
+[2025.06.20-01.58.27:798][914]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.30:682][ 87]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.31:965][164]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.32:499][196]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.32:648][205]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.33:182][237]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.34:782][333]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.36:407][430]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.39:202][595]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.39:984][642]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.41:717][746]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.43:033][825]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.44:136][891]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.46:917][ 58]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.48:070][123]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=27
+[2025.06.20-01.58.48:176][124]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.50:464][260]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.51:546][325]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.52:931][408]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.54:664][512]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.55:883][585]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.56:588][627]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.58.59:670][812]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.59.01:372][914]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.59.02:371][974]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.59.03:438][ 38]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.59.06:556][225]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.59.08:072][316]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.59.08:519][332]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=27
+[2025.06.20-01.59.09:273][376]LogScript: Script Msg: Playing animation override...
+[2025.06.20-01.59.10:530][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.59.10:530][449]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-01.59.10:530][449]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-01.59.10:530][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.59.10:535][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-01.59.10:544][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-01.59.10:575][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-01.59.10:577][449]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2025.06.20-01.59.10:577][449]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2025.06.20-01.59.10:580][449]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2025.06.20-01.59.10:592][449]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2025.06.20-01.59.10:738][450]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2025.06.20-01.59.34:963][595]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.00.01:090][673]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.00.27:521][315]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.00.47:225][365]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.01.05:714][421]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2025.06.20-02.01.05:789][421]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-02.01.05:900][421]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/Hero/BP_Hero] ([2] browsable assets)...
+[2025.06.20-02.01.05:900][421]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Hero/BP_Hero]
+[2025.06.20-02.01.05:900][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Hero/BP_Hero" FILE="C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Characters/Hero/BP_Hero.uasset" SILENT=true
+[2025.06.20-02.01.05:960][421]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Hero/BP_Hero
+[2025.06.20-02.01.05:963][421]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Hero428ABBB94994C983ED702E8DAADE1CF5.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Characters/Hero/BP_Hero.uasset'
+[2025.06.20-02.01.05:982][421]LogFileHelpers: InternalPromptForCheckoutAndSave took 192.826 ms (total: 11.2 sec)
+[2025.06.20-02.01.06:102][421]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-02.01.06:102][421]LogContentValidation: Enabled validators:
+[2025.06.20-02.01.06:102][421]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-02.01.06:102][421]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-02.01.06:102][421]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-02.01.06:102][421]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-02.01.06:102][421]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-02.01.06:102][421]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-02.01.06:102][421]AssetCheck: /Game/Blueprints/Characters/Hero/BP_Hero Validating asset
+[2025.06.20-02.01.11:456][702]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.01.28:732][654]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2025.06.20-02.01.28:805][654]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-02.01.28:900][654]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/Hero/BP_Hero] ([2] browsable assets)...
+[2025.06.20-02.01.28:900][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Hero/BP_Hero]
+[2025.06.20-02.01.28:900][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Hero/BP_Hero" FILE="C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Characters/Hero/BP_Hero.uasset" SILENT=true
+[2025.06.20-02.01.28:955][654]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Hero/BP_Hero
+[2025.06.20-02.01.28:959][654]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Hero5E89E17D473EFDCAD8824393CBC0FE8E.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Characters/Hero/BP_Hero.uasset'
+[2025.06.20-02.01.28:973][654]LogFileHelpers: InternalPromptForCheckoutAndSave took 169.852 ms (total: 11.4 sec)
+[2025.06.20-02.01.29:087][654]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-02.01.29:087][654]LogContentValidation: Enabled validators:
+[2025.06.20-02.01.29:087][654]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-02.01.29:087][654]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-02.01.29:087][654]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-02.01.29:087][654]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-02.01.29:087][654]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-02.01.29:087][654]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-02.01.29:087][654]AssetCheck: /Game/Blueprints/Characters/Hero/BP_Hero Validating asset
+[2025.06.20-02.01.35:295][995]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.01.36:397][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2025.06.20-02.01.36:461][ 47]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-02.01.36:553][ 47]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Characters/Hero/BP_Hero] ([2] browsable assets)...
+[2025.06.20-02.01.36:553][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Characters/Hero/BP_Hero]
+[2025.06.20-02.01.36:553][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Characters/Hero/BP_Hero" FILE="C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Characters/Hero/BP_Hero.uasset" SILENT=true
+[2025.06.20-02.01.36:609][ 47]LogSavePackage: Moving output files for package: /Game/Blueprints/Characters/Hero/BP_Hero
+[2025.06.20-02.01.36:611][ 47]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/BP_Hero601476EC4917CAD141C8CBA34DDBA23C.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Blueprints/Characters/Hero/BP_Hero.uasset'
+[2025.06.20-02.01.36:628][ 47]LogFileHelpers: InternalPromptForCheckoutAndSave took 167.084 ms (total: 11.6 sec)
+[2025.06.20-02.01.36:733][ 47]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-02.01.36:733][ 47]LogContentValidation: Enabled validators:
+[2025.06.20-02.01.36:733][ 47]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-02.01.36:733][ 47]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-02.01.36:733][ 47]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-02.01.36:733][ 47]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-02.01.36:733][ 47]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-02.01.36:733][ 47]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-02.01.36:733][ 47]AssetCheck: /Game/Blueprints/Characters/Hero/BP_Hero Validating asset
+[2025.06.20-02.01.56:309][381]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-02.01.56:325][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-02.01.56:326][381]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-02.01.56:331][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004966s)
+[2025.06.20-02.01.56:331][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.005048s)
+[2025.06.20-02.01.56:373][381]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2025.06.20-02.01.56:375][381]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-02.01.56:377][381]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-02.01.56:377][381]LogPlayLevel: PIE: World Init took: (0.003217s)
+[2025.06.20-02.01.56:381][381]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2025.06.20-02.01.56:381][381]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-02.01.56:381][381]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-02.01.56:381][381]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-02.01.56:381][381]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-02.01.56:381][381]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-02.01.56:381][381]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-02.01.56:381][381]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-02.01.56:381][381]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-02.01.56:381][381]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-02.01.56:382][381]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-02.01.56:382][381]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-02.01.56:387][381]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-02.01.56:426][381]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-02.01.56:426][381]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-02.01.56:427][381]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-02.01.56:427][381]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-02.01.56:428][381]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2025.06.20-02.01.56:428][381]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2025.06.20-02.01.56:432][381]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2025.06.20-02.01.56:432][381]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2025.06.20-02.01.56:432][381]LogInit: FAudioDevice initialized with ID 28.
+[2025.06.20-02.01.56:432][381]LogAudio: Display: Audio Device (ID: 28) registered with world 'Level_Dungeon'.
+[2025.06.20-02.01.56:432][381]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2025.06.20-02.01.56:436][381]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-02.01.56:437][381]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-22.01.56
+[2025.06.20-02.01.56:437][381]LogWorld: Bringing up level for play took: 0.001832
+[2025.06.20-02.01.56:442][381]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2025.06.20-02.01.56:449][381]PIE: Server logged in
+[2025.06.20-02.01.56:452][381]PIE: Play in editor total start time 0.126 seconds.
+[2025.06.20-02.01.59:264][548]LogScript: Script Msg: Playing animation override...
+[2025.06.20-02.02.00:016][593]LogScript: Script Msg: Playing animation override...
+[2025.06.20-02.02.01:397][676]LogScript: Script Msg: Playing animation override...
+[2025.06.20-02.02.02:940][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-02.02.02:940][767]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-02.02.02:940][767]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-02.02.02:940][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-02.02.02:946][767]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-02.02.02:954][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-02.02.02:987][767]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.20-02.02.02:987][767]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2025.06.20-02.02.02:987][767]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2025.06.20-02.02.02:991][767]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2025.06.20-02.02.03:000][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-02.02.03:005][767]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2025.06.20-02.02.03:154][768]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2025.06.20-02.02.04:803][863]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-02.02.04:818][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-02.02.04:849][863]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-02.02.04:852][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003050s)
+[2025.06.20-02.02.04:852][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.003105s)
+[2025.06.20-02.02.04:891][863]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2025.06.20-02.02.04:893][863]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-02.02.04:896][863]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-02.02.04:896][863]LogPlayLevel: PIE: World Init took: (0.003193s)
+[2025.06.20-02.02.04:898][863]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2025.06.20-02.02.04:898][863]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-02.02.04:898][863]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-02.02.04:898][863]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-02.02.04:898][863]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-02.02.04:898][863]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-02.02.04:898][863]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-02.02.04:898][863]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-02.02.04:898][863]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-02.02.04:898][863]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-02.02.04:898][863]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-02.02.04:898][863]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-02.02.04:901][863]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-02.02.04:936][863]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-02.02.04:936][863]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-02.02.04:937][863]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-02.02.04:937][863]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-02.02.04:937][863]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2025.06.20-02.02.04:937][863]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2025.06.20-02.02.04:942][863]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2025.06.20-02.02.04:942][863]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2025.06.20-02.02.04:942][863]LogInit: FAudioDevice initialized with ID 29.
+[2025.06.20-02.02.04:942][863]LogAudio: Display: Audio Device (ID: 29) registered with world 'Level_Dungeon'.
+[2025.06.20-02.02.04:942][863]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2025.06.20-02.02.04:945][863]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-02.02.04:947][863]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-22.02.04
+[2025.06.20-02.02.04:948][863]LogWorld: Bringing up level for play took: 0.001763
+[2025.06.20-02.02.04:951][863]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2025.06.20-02.02.04:957][863]PIE: Server logged in
+[2025.06.20-02.02.04:958][863]PIE: Play in editor total start time 0.141 seconds.
+[2025.06.20-02.02.05:134][864]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.02.05:134][864]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=29
+[2025.06.20-02.02.06:625][948]LogScript: Script Msg: Playing animation override...
+[2025.06.20-02.02.09:761][136]LogScript: Script Msg: Playing animation override...
+[2025.06.20-02.02.11:728][254]LogScript: Script Msg: Playing animation override...
+[2025.06.20-02.02.15:712][491]LogScript: Script Msg: Playing animation override...
+[2025.06.20-02.02.17:909][621]LogScript: Script Msg: Playing animation override...
+[2025.06.20-02.02.19:415][709]LogScript: Script Msg: Playing animation override...
+[2025.06.20-02.02.21:310][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-02.02.21:310][820]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-02.02.21:310][820]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-02.02.21:310][820]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-02.02.21:314][820]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-02.02.21:320][820]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-02.02.21:355][820]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-02.02.21:355][820]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2025.06.20-02.02.21:357][820]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2025.06.20-02.02.21:359][820]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2025.06.20-02.02.21:374][820]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2025.06.20-02.02.21:516][821]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2025.06.20-02.02.22:850][895]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.06.20-02.02.22:864][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.06.20-02.02.22:864][895]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-02.02.22:868][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003656s)
+[2025.06.20-02.02.22:868][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_Dungeon.Level_Dungeon to /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon (0.003710s)
+[2025.06.20-02.02.22:914][895]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2025.06.20-02.02.22:916][895]LogChaosDD: Creating Chaos Debug Draw Scene for world Level_Dungeon
+[2025.06.20-02.02.22:918][895]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon'.
+[2025.06.20-02.02.22:919][895]LogPlayLevel: PIE: World Init took: (0.002963s)
+[2025.06.20-02.02.22:921][895]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2025.06.20-02.02.22:921][895]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.06.20-02.02.22:921][895]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.06.20-02.02.22:921][895]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.06.20-02.02.22:921][895]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.06.20-02.02.22:921][895]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.06.20-02.02.22:921][895]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.06.20-02.02.22:921][895]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.06.20-02.02.22:921][895]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.06.20-02.02.22:921][895]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.06.20-02.02.22:921][895]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.06.20-02.02.22:921][895]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.06.20-02.02.22:925][895]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.06.20-02.02.22:962][895]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2025.06.20-02.02.22:963][895]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.06.20-02.02.22:963][895]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.06.20-02.02.22:963][895]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.06.20-02.02.22:963][895]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2025.06.20-02.02.22:963][895]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2025.06.20-02.02.22:968][895]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2025.06.20-02.02.22:968][895]LogInit: FAudioDevice initialized with ID 30.
+[2025.06.20-02.02.22:968][895]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2025.06.20-02.02.22:968][895]LogAudio: Display: Audio Device (ID: 30) registered with world 'Level_Dungeon'.
+[2025.06.20-02.02.22:968][895]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2025.06.20-02.02.22:972][895]LogLoad: Game class is 'GM_Dungeon_C'
+[2025.06.20-02.02.22:973][895]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Dungeon.Level_Dungeon up for play (max tick rate 60) at 2025.06.19-22.02.22
+[2025.06.20-02.02.22:974][895]LogWorld: Bringing up level for play took: 0.001764
+[2025.06.20-02.02.22:977][895]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2025.06.20-02.02.22:983][895]PIE: Server logged in
+[2025.06.20-02.02.22:985][895]PIE: Play in editor total start time 0.121 seconds.
+[2025.06.20-02.02.25:390][ 37]LogScript: Script Msg: Playing animation override...
+[2025.06.20-02.02.25:441][ 40]LogScript: Script Msg: Playing animation override...
+[2025.06.20-02.02.26:640][112]LogScript: Script Msg: Playing animation override...
+[2025.06.20-02.02.27:240][148]LogScript: Script Msg: Playing animation override...
+[2025.06.20-02.02.28:757][239]LogScript: Script Msg: Playing animation override...
+[2025.06.20-02.02.30:541][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-02.02.30:541][342]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level_Dungeon
+[2025.06.20-02.02.30:541][342]LogWorld: UWorld::CleanupWorld for Level_Dungeon, bSessionEnded=true, bCleanupResources=true
+[2025.06.20-02.02.30:541][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-02.02.30:547][342]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.06.20-02.02.30:556][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.20-02.02.30:603][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.06.20-02.02.30:604][342]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2025.06.20-02.02.30:604][342]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2025.06.20-02.02.30:607][342]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2025.06.20-02.02.30:625][342]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2025.06.20-02.02.30:786][343]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2025.06.20-02.02.31:541][374]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.02.41:751][939]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.20-02.02.41:864][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_Dungeon" FILE="C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Levels/Level_Dungeon.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.06.20-02.02.41:970][939]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2025.06.20-02.02.41:988][939]LogSavePackage: Moving output files for package: /Game/Levels/Level_Dungeon
+[2025.06.20-02.02.41:992][939]LogSavePackage: Moving 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Saved/Level_DungeonAFB023104E62A836674389B36C153FD4.tmp' to 'C:/Users/fkeme/Documents/Unreal Projects/UdemyProject003 5.5/Content/Levels/Level_Dungeon.umap'
+[2025.06.20-02.02.42:021][939]LogFileHelpers: Saving map 'Level_Dungeon' took 0.160
+[2025.06.20-02.02.42:056][939]LogFileHelpers: InternalPromptForCheckoutAndSave took 304.702 ms (total: 11.9 sec)
+[2025.06.20-02.02.42:180][939]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.20-02.02.42:180][939]LogContentValidation: Enabled validators:
+[2025.06.20-02.02.42:180][939]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.20-02.02.42:180][939]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.20-02.02.42:180][939]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.20-02.02.42:180][939]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.20-02.02.42:180][939]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.20-02.02.42:180][939]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.20-02.02.42:181][939]AssetCheck: /Game/Levels/Level_Dungeon Validating asset
+[2025.06.20-02.02.55:284][ 46]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.03.18:725][116]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.03.48:969][207]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.03.59:944][239]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 81707.671875
+[2025.06.20-02.04.00:947][242]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.20-02.04.00:947][242]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 81708.335938, Update Interval: 303.046967
+[2025.06.20-02.04.12:613][277]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.04.29:011][326]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.04.59:775][418]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.05.26:653][499]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.05.56:470][588]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.06.21:472][663]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.06.35:531][794]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.06.53:573][847]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.06.20-02.07.21:248][930]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
